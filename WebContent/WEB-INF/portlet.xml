@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+   http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+	<portlet>
+		<portlet-name>plutoJsf</portlet-name>
+
+		<portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
+
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.view</name>
+			<value>/WEB-INF/jsp/view.jsp</value>
+		</init-param>
+
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.edit</name>
+			<value>/WEB-INF/jsp/edit.jsp</value>
+		</init-param>
+
+		<init-param>
+			<name>javax.portlet.faces.defaultViewId.help</name>
+			<value>/WEB-INF/jsp/help.jsp</value>
+		</init-param>
+
+		<expiration-cache>0</expiration-cache>
+
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+
+		<portlet-info>
+			<title>plutoJsf</title>
+			<short-title>plutoJsf</short-title>
+			<keywords>plutoJsf</keywords>
+		</portlet-info>
+
+	</portlet>
+</portlet-app>
+
+

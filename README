@@ -1,0 +1,4 @@
+plutoJsf
+
+Apache Pluto 2.0専用、JSF1.2ポートレット。
+ポートレットブリッジはJBossPortletBridge-2.3.0.Finalを使用。
